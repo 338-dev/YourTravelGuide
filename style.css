@@ -1,0 +1,65 @@
+.nav_bar{
+    display: flex;
+   flex-wrap: nowrap;
+   text-align: center;
+   
+}
+.nav_bar > div {
+    background-colorr:#f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+  }
+.box{
+    
+}
+.bck{
+    display: flex;  
+}
+.bckimg{
+    background-position:center;
+    justify-content: flex-end;
+    background-image:url("ladakh.jpg");
+    background-repeat: no-repeat;
+    background-size: 90em;
+    /*background-color: rgb(222, 228, 228);
+    */
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: rgb(207, 216, 216);
+}
+@media only screen and (max-width: 670px) {
+    .nav_bar {
+      flex-direction: column;
+      
+    }
+    .inp{
+        width: 80%;
+    }
+    .cardex{
+        
+        width: 50%;
+        margin: 10%;
+    }
+  }/*style="width: 200px; height: auto; margin: 20%;"*/
+.box:hover{
+    background-color:rgb(126, 138, 138);
+    transition-duration: 210ms;
+    border-radius: 1px;
+    display: inline-block;
+}
+@media only screen and (min-width: 671px) 
+{
+    .cardex{
+        width: 40%;
+         height: auto;
+          margin: 20%;
+    }
+    .inp{
+        width: 90%;
+    }
+}
